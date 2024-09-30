@@ -104,3 +104,7 @@ label {
 legend {
   display: block;
 }
+
+body {
+  width: 100%;
+}

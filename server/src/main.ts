@@ -10,11 +10,6 @@ async function bootstrap() {
       secret: 'keyword',
       resave: false,
       saveUninitialized: false,
-      cookie: {
-        httpOnly: true,
-        // secure: process.env.NODE_ENV === 'production',
-        sameSite: 'lax',
-      },
     }),
   );
   app.use(passport.initialize());

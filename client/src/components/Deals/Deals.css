@@ -15,7 +15,7 @@
   display: grid;
   grid-template-areas:
     "title title";
-  grid-template-columns: repeat(2, minmax(400px, 630px));
+  grid-template-columns: repeat(2, minmax(320px, 630px));
   gap: 20px;
   justify-content: center;
 }
@@ -105,7 +105,6 @@
   .deals__grid {
     grid-template-areas:
       "title title title";
-    grid-template-columns: repeat(3, minmax(400px, 630px));
     gap: 30px;
   }
 
@@ -131,7 +130,7 @@
   .deals__grid {
     grid-template-areas:
       "title";
-    grid-template-columns: repeat(1, minmax(400px, 630px));
+    grid-template-columns: repeat(1, minmax(300px, 630px));
     gap: 20px;
     justify-content: center;
   }
